@@ -16,16 +16,34 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="container d-flex align-items-center h-100">
+    <div class="container grid">
       <div class="row">
-        <header class="text-center col-12">
+        <header class="text-center g-col-6">
             <h1 class="text-uppercase"><strong>Laura Rous</strong></h1>
         </header>
-        <section class="text-center col-12">
-        <div class="img">
-          <img src="LauraRous.jpg" alt="Laura Rous">
-        </div>
+        <section class="text-center">
+          <div class="img">
+            <img src="LauraRous.jpg" alt="Laura Rous">
+          </div>
       </section>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row">
+        <div class="col-md-8">
+          <header class="text-center g-col-6">
+            <h1 class="text-uppercase"><strong>Laura Rous</strong></h1>
+          </header>
+        </div>
+      <div class="col-6 col-md-4">
+        <section class="text-center">
+          <div class="img">
+            <img src="LauraRous.jpg" alt="Laura Rous">
+          </div>
+        </section>
       </div>
     </div>
   </body>
