@@ -9,10 +9,7 @@ h1 {
   color: whitesmoke;
 
 }
-.background-img {
-  background: url(LauraRous.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.img {
+  height: auto;
+  width: 50px;
 }
