@@ -9,49 +9,133 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="grid-container">
-      <div class="header">
-        <div class="header__img">
+    <div class="container">
+      <div class="about">
+        <h1>Laura Rous</h1>
+        <h2 class="sub-title">About</h2>
+        <div class="content">
           <div class="img">
-            <img src="LauraRous.jpg" alt="Laura Rous">
+            <img src="LauraRous.jpg" alt="LauraRous">
+          </div>
+          <div class="about__contact">
+            <dl class="contact-info ">
+              <dt>
+                <span class="phone" aria-hidden="true"><img class="contact-img" src="icomoon/SVG/mobile.svg" alt="Telefonnummer"></span>
+              </dt>
+              <dd>
+                <a href="tel:+43123456789" title="Öffnet die Telefon-APP">+43 1234 56789</a>
+              </dd>
+              <hr>
+              <dd>
+                Leechgasse 48<br>
+                8010 Graz
+              </dd>
+              <hr>
+              <dt>
+                <span class="email"><img class="contact-img" src="icomoon/SVG/e-mail.svg" alt="E-Mail"></span>
+              </dt>
+              <dd>
+                <a href="mailto:office@wifi.at" title="Öffnet das E-Mail Programm">laurarous.93@gmail.com</a>
+              </dd>
+              <hr>
+              <dd>
+                <a href="https://www.linkedin.com/in/laura-rous" target="_blank">
+                <img class="contact-img" src="icomoon/SVG/social-linkedin.svg" alt="LinkedIn"></a>
+              </dd>
+            </dl>
           </div>
         </div>
-        <div class="header__info">
-          <div class="header__title">        
-            <header class="text-left">
-              <h1 class="text-uppercase"><strong>Laura Rous</strong></h1>
-            </header>
-          </div>
-          <div class="haeder__sub-info">
+      </div>
+
+
+      <div class="work">
+        <h2 class="sub-title">Work</h2>
+        <div class="work__history content">
+          <blockquote cite="http://http://www.clefsdor.at/ueber%20uns.htm">
+            &#8220; In Service through Friendship! &#8221;
+            </blockquote>
+            <hr>
+          <ul>
+            <li class="list-item">2021 &#8226; TAO Digital &#8226; <strong>Web Development Praktikantin</strong></li>
+            <li class="list-item">2020 &#8226; Weitzer Hotels BetriebsgesmbH &#8226; <strong>Sales Assistant</strong></li>
+            <li class="list-item">2020 &#8226; NOVAPARK HotelbetriebsgmbH &#8226; <strong>Rezeptionistin</strong></li>
+            <li class="list-item">2019 &#8226; Achat Comfort City Frankfurt &#8226; <strong>Reservierungsmitarbeiterin/Rezeptionistin</strong></li>
+            <li class="list-item">2018-2019 &#8226; QGreen by Melia &#8226; <strong>Rezeptionistin</strong></li>
+            <li class="list-item">2016 &#8226; Dr. Josef Stocker &#8226; <strong>Arztgehilfin</strong></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="skills">
+        <h2 class="sub-title">Skills</h2>
+        <div class="skills__overview content">
+          <ul>
+            <li class="list-item"><strong>SCSS</strong> (Udemy: Advanced CSS and SASS:Flexbox, Grid, Animations, The Complete Web Developer in 2021: Zero to Mastery)   &#10022; &#10022;</li>
+            <li class="list-item"><strong>HTML5, CSS3</strong> (Wifi Stmk, edvgraz holzinger seminar gmbh, Udemy: Advanced CSS and SASS:Flexbox, Grid, Animations, The Complete Web Developer in 2021: Zero to Mastery)  &#10022; &#10022;</li>
+            <li class="list-item"><strong>Wordpress</strong> (Wifi Stmk)  &#10022; &#10022;</li>
+            <li class="list-item"><strong>Adobe XD</strong> (Wifi Stmk)    &#10022; &#10022;</li>
+            <li class="list-item"><strong>Flexbox, Grid</strong> (Wifi Stmk, Udemy: Advanced CSS and SASS:Flexbox, Grid, Animations, The Complete Web Developer in 2021: Zero to Mastery)  &#10022;</li>
+            <li class="list-item"><strong>Bootstrap</strong> (Wifi Stmk, Udemy: Advanced CSS and SASS:Flexbox, Grid, Animations, The Complete Web Developer in 2021: Zero to Mastery)  &#10022;</li>
+            <li class="list-item"><strong>Social Media Marketing</strong> (Udemy: Social Media Marketing Kurs)   &#10022;</li>
+            <li class="list-item"><strong>MS Office</strong> (edvgraz holzinger seminar gmbh)  &#10022; &#10022; &#10022;</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="hobbies">
+        <h2 class="sub-title">Hobbies</h2>
+        <div class="hobbies__overview content">
+          <div class="hobby">
+            <img class="icon-1" src="icon/laptop.svg" alt="Bildschirm">
             <ul>
-              <li>Dipl. Webdeveloperin</li>
-              <li>Wissbegierig</li>
-              <li>Web Affin</li>
-              <li>Yogi</li>
+              <li>Web Design</li>
+              <li>Onlinefortbildungen</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="hobby">
+            <img class="icon-2"src="icon/ball-pen.svg" alt="Stift">
+            <ul>
+              <li>Sudoku Rätsel</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="hobby">
+            <img class="icon-3" src="icon/lotus.svg" alt="Lotus">
+            <ul>
+              <li>Yoga</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="hobby">
+            <img class="icon-4" src="icon/chef-hat.svg" alt="Kochhaube">
+            <ul>
+              <li>Kochen</li>
+              <li>Backen</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="main">
-        <div class="main__icon">
-          <img src="icomoon/SVG/directions.svg" alt="Beruflicher Werdegang">
-        </div>
-        <div class="main__info">
-          <div class="one">
-            <p class="date">2021</p>
-            <h2 class="title">TAO Digital / Web Development Praktikantin</h2>
 
-          </div>
+
+      <div class="education">
+        <h2 class="sub-title">Education</h2>
+        <div class="education__overview content">
+          <ul>
+            <li class="list-item">Wifi Stmk &#8226; Web Development &#8226; <strong>Dipl. Web Developerin</strong></li>
+            <li class="list-item">Wirtschaftsakademie Wien &#8226; Online Studium Sales undVertriebsmanagement &#8226; <strong>angehende Dipl. Sales und Vertriebsmanagerin</strong></li>
+            <li class="list-item">Tourismusschule Bad Gleichenberg &#8226; englischsprachiges Kolleg &#8226; <strong>Dipl. Tourismuskauffrau, Junior Mitglied des Hotelportier Verbandes LecClefs d'Or Österreich</strong></li>
+          </ul>
         </div>
       </div>
-      <div class="footer"></div>
+
+
     </div>
   </body>
 </html>
